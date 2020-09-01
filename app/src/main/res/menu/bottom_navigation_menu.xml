@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:enabled="true"
+>
+    <item
+            android:id="@+id/healthcare"
+            android:enabled="true"
+            android:icon="@drawable/ic_healthcare"
+            android:title="healthcare" />
+
+    <item
+            android:id="@+id/articles"
+            android:enabled="true"
+            android:icon="@drawable/ic_articles"
+            android:title="articles" />
+
+    <item
+            android:id="@+id/social_media"
+            android:enabled="true"
+            android:icon="@drawable/ic_social_media"
+            android:title="social_media" />
+    <item
+            android:id="@+id/videos"
+            android:enabled="true"
+            android:icon="@drawable/ic_videos"
+            android:title="videos" />
+    <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_maps"
+            android:title="maps"
+            android:enabled="true"
+    />
+
+</menu>

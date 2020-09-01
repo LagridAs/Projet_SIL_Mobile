@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776747483591",
+    "firebase_url": "https://coronawatch-62206.firebaseio.com",
+    "project_id": "coronawatch-62206",
+    "storage_bucket": "coronawatch-62206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776747483591:android:30febab73fee699c4659e2",
+        "android_client_info": {
+          "package_name": "com.example.corona.watch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776747483591-treuioke5jgad2p95guh679uqq55b0sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.corona.watch",
+            "certificate_hash": "4305d8033bc796d2515a978b11e61a0623b3e781"
+          }
+        },
+        {
+          "client_id": "776747483591-9m8k8u070rs9erc67onag7oo9l93pai1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYNTuyCeX9EdwyIEs3BtSSsdbEWHvJio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776747483591-9m8k8u070rs9erc67onag7oo9l93pai1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

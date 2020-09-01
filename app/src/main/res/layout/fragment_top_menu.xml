@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        tools:context=".main.TopMenuFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_menu_frame"
+            android:orientation="horizontal"
+            android:elevation="4dp"
+            >
+        <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                >
+            <ImageView
+                    android:id="@+id/notification_button"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/ic_notifications_button" />
+
+            <ImageView android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/signal_btn_top"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:src="@drawable/photo_camera"
+                    />
+
+
+
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:clickable="true"
+                    android:id="@+id/profile_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

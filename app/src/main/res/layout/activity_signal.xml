@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:background="@color/lightViolet"
+            android:id="@+id/signal_activity_layout"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+    >
+        <ImageView
+                   android:layout_height="190dp"
+                   android:layout_width="190dp"
+                    android:src="@drawable/signal_camera"
+                   android:layout_marginBottom="50dp"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="إرسال صورة أو فيديو"
+                android:textColor="@color/white"
+                android:textSize="40px"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="للتبليغ عن حالة"
+                android:textSize="40px"
+                android:textColor="@color/white"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical"
+
+
+
+    >
+
+      <Button style="@style/Widget.AppCompat.Button"
+               android:background="@drawable/signal_btn_signal"
+               android:layout_height="wrap_content"
+               android:layout_width="190dp"
+               android:textColor="@color/lightViolet"
+               android:textSize="50px"
+               android:text="تبليغ"
+               android:id="@+id/signal_btn"
+       />
+
+    </LinearLayout>
+
+
+</LinearLayout>

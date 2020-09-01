@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@android:style/Theme.Dialog"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".healthcare.HealthcareInfoActivity">
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textDirection="rtl"
+            android:layout_weight="1"
+            android:layout_margin="25dp"
+            android:padding="10dp"
+            android:textSize="24px"
+            android:hint="الوزن"
+            android:id="@+id/weightField"
+            />
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_weight="1"
+            android:hint="درجة الحرارة"
+            android:textSize="24px"
+            android:padding="10dp"
+            android:id="@+id/temperatureField"
+            style="@style/Widget.AppCompat.EditText"
+            android:textDirection="rtl"
+            android:layout_margin="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.google.android.material.textfield.TextInputEditText>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_weight="1"
+            android:hint="نبضات القلب"
+            android:textSize="24px"
+            android:padding="10dp"
+            android:id="@+id/cardiacField"
+            style="@style/Widget.AppCompat.EditText"
+            android:textDirection="rtl"
+            android:layout_margin="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.google.android.material.textfield.TextInputEditText>
+    <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:clickable="true"
+            android:editable="false"
+            android:id="@+id/date_picker"
+            android:hint="التاريخ"
+            android:focusable="false"
+            android:layout_weight="1"
+            android:textSize="24px"
+            android:padding="10dp"
+            style="@style/Widget.AppCompat.EditText"
+            android:textDirection="rtl"
+            android:layout_margin="25dp"
+            />
+    <Button android:layout_width="match_parent"
+            android:layout_marginHorizontal="50dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/send"
+            android:textSize="40px"
+            android:layout_margin="25dp"
+            android:textColor="@color/white"
+            android:background="@drawable/send_btn_signal"
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/send_btn"
+
+            />
+
+</LinearLayout>

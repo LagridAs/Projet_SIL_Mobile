@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:theme="@android:style/Theme.Dialog"
+              android:elevation="4dp"
+              android:layout_height="match_parent"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/name_country"
+                  android:text=""
+                  android:gravity="center"
+                  android:fontFamily="@font/quicksand_semibold"
+                  android:textSize="20dp"
+                  android:textColor="@color/gold"
+        />
+    </LinearLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gold"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/confirmed_cases"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20"
+                android:textColor="@color/gold"
+                android:textSize="13dp"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/lightViolet"
+                android:text="@string/confirmed"
+                android:gravity="center"
+                android:textSize="13dp"
+        />
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/active_cases"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="13dp"
+                android:textColor="@color/gold"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/lightViolet"
+                android:layout_weight="1"
+                android:text="@string/active"
+                android:gravity="center"
+                android:textSize="13dp"
+        />
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recovered_cases"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="13dp"
+                android:textColor="@color/gold"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/lightViolet"
+                android:layout_weight="1"
+                android:text="@string/recovered"
+                android:gravity="center"
+                android:textSize="13dp"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dead_cases"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="13dp"
+                android:textColor="@color/gold"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/lightViolet"
+                android:layout_weight="1"
+                android:text="@string/dead"
+                android:gravity="center"
+                android:textSize="13dp"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/unconfirmed_cases"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="13dp"
+                android:textColor="@color/gold"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/lightViolet"
+                android:layout_weight="1"
+                android:text="@string/underTest"
+                android:gravity="center"
+                android:textSize="13dp"
+        />
+    </LinearLayout>
+</LinearLayout>

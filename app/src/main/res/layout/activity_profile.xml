@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".profile.ProfileActivity">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:background="@color/lightViolet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/name_page_profile"
+                ></TextView>
+
+    </FrameLayout>
+
+    <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView2"
+            android:layout_width="300dp"
+            android:layout_height="450dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.757">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/username_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textColor="@color/lightViolet"
+                    android:textDirection="rtl"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.062"
+                    tools:layout_editor_absoluteX="0dp">
+
+            </TextView>
+
+            <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:background="@color/gold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/username_profile"
+                    app:layout_constraintVertical_bias="0.201"
+                    tools:layout_editor_absoluteX="16dp" />
+
+            <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.028"
+                    tools:layout_editor_absoluteX="16dp">
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_video"
+                        android:layout_gravity="center"
+                        android:layout_weight="3">
+
+                </ImageView>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/my_videos_profile"
+                        android:text="@string/my_videos"
+                        android:textDirection="rtl"
+                        android:layout_marginHorizontal="20dp"
+                        android:textSize="15sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/lightViolet"
+                        >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:background="@color/gold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                    app:layout_constraintVertical_bias="0.041"
+                    tools:layout_editor_absoluteX="0dp" />
+
+            <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view4"
+                    app:layout_constraintVertical_bias="0.047"
+                    tools:layout_editor_absoluteX="0dp">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_video_camera"
+                        android:layout_gravity="center"
+                        android:layout_weight="3">
+
+                </ImageView>
+
+                <TextView
+                        android:id="@+id/upload_video_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textDirection="rtl"
+                        android:layout_marginHorizontal="20dp"
+                        android:textSize="15sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/lightViolet"
+                        android:text="@string/upload_video_profile"
+                        android:layout_weight="1">
+
+                </TextView>
+            </LinearLayout>
+
+            <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:background="@color/gold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    app:layout_constraintVertical_bias="0.069"
+                    tools:layout_editor_absoluteX="0dp" />
+
+
+            <LinearLayout
+                    android:id="@+id/sign_out_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view5"
+                    app:layout_constraintVertical_bias="0.078"
+                    android:clickable="true"
+                    tools:layout_editor_absoluteX="0dp">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_logout"
+                        android:layout_weight="3">
+
+                </ImageView>
+
+                <TextView
+                        android:id="@+id/sign_out_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textDirection="rtl"
+                        android:layout_marginHorizontal="20dp"
+                        android:textSize="15sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/lightViolet"
+                        android:text="@string/signout_profile"
+                        android:layout_weight="1">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:background="@color/gold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sign_out_layout"
+                    app:layout_constraintVertical_bias="0.097"
+                    tools:layout_editor_absoluteX="0dp">
+
+            </View>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+        <ImageView
+                android:id="@+id/img_profile_profile"
+                android:layout_gravity="center"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="80dp"
+                android:elevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:foregroundGravity="center"
+
+                />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

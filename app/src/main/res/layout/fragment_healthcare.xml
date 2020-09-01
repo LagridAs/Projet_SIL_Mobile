@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".healthcare.HealthcareFragment">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7">
+        <com.google.android.material.tabs.TabLayout
+                android:id="@+id/sections"
+                android:clickable="true"
+                app:tabIndicatorColor="@color/gold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.google.android.material.tabs.TabItem
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:text="دقات القلب"/>
+            <com.google.android.material.tabs.TabItem
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:text="الحرارة"/>
+            <com.google.android.material.tabs.TabItem
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:clickable="true"
+                    android:text="الوزن"/>
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </FrameLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+        <com.github.mikephil.charting.charts.LineChart
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/graph" />
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="5">
+            <Button android:layout_width="match_parent"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_height="match_parent"
+                    android:text="املأ المعلومات"
+                    android:textSize="15dp"
+                    android:layout_marginVertical="13dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/send_btn_signal"
+                    style="@style/Widget.AppCompat.Button"
+                    android:id="@+id/healthcareInfo"
+
+                    />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">CoronaWatch</string>
+
+
+    <string name="facebook_app_id">292150935083997</string>
+    <string name="fb_login_protocol_scheme">fb292150935083997</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="fileNotSent">"فشل في ارسال الملف"</string>
+    <string name="fileSent">"تم ارسال الملف بنجاح"</string>
+    <string name="world">"العالم"</string>
+    <string name="nation">"الوطن"</string>
+    <string name="confirmed">"الحالات المؤكدة"</string>
+    <string name="recovered">"المتعافون"</string>
+    <string name="dead">"الوفيات"</string>
+    <string name="active">"المرضى"</string>
+    <string name="underTest">"الحالات المشتبه بها"</string>
+    <string name="marakiz_istikbal">"مراكز الاستقبال"</string>
+    <string name="home">"الصفحة الرئيسية"</string>
+    <string name="send">"ارسال"</string>
+    <string name="user">"المستخدم"</string>
+    <string name="comment">"إضافة تعليق ..."</string>
+    <string name="author">"LAGRID ASMAA"</string>
+    <string name="dateText">"حرر بتاريخ °"</string>
+    <string name="type_file">"نوع الملف"</string>
+    <string name="photo">"صورة"</string>
+    <string name="video">"فيديو"</string>
+    <string name="take_camera">"الالتقاط بواسطة الكاميرا"</string>
+    <string name="choose_gallery">"اختيار ملف محفوظ"</string>
+
+
+    <string name="date1">15مارس،الساعة8:00ص</string>
+    <string name="ta3li9at">التعليقات</string>
+    <string name="ta3li9">تعليق</string>
+    <string name="ecritcommentaire">أكتب تعليقك هنا ...</string>
+    <string name="comment1">ET DANS LES CITEES COMMENT CA SE PASSE NIVEAU LÂCHETÉ ?ET DANS LES CITEES COMMENT CA SE PASSE NIVEAU LÂCHETÉ ?ET DANS LES CITEES COMMENT CA SE PASSE NIVEAU LÂCHETÉ ?</string>
+
+
+    <string name="datered">15مارس،الساعة8:00ص</string>
+    <string name="label_view_more">عرض المزيد</string>
+    <string name="titre">معلومات تقنية عن فيروس كورونا المسبب لمتلازمة الشرق الأوسط التنفسية</string>
+    <string name="contenu">
+        إن فيروسات كورونا هي زمرة واسعة من الفيروسات تشمل فيروسات يمكن أن تتسبب في مجموعة من الاعتلالات في البشر، تتراوح ما بين نزلة البرد العادية وبين المتلازمة التنفسية الحادة الوخيمة. كما أن الفيروسات من هذه الزمرة تتسبب في عدد من الأمراض الحيوانية.
+        فيروس كورونا المسبب لمتلازمة الشرق الأوسط التنفسية
+    </string>
+    <string name="article">مقال</string>
+    <string name="auteur">المحرر</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="my_videos">فيديوهات</string>
+    <string name="upload_video_profile">تسجيل فيديو</string>
+    <string name="signout_profile">تسجيل الخروج</string>
+    <string name="name_page_profile">الصفحة الشخصية</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_location_permission_not_granted">granted</string>
+    <string name="user_location_permission_explanation">explanation</string>
+    <string name="extended_fab_label">مناطق الخطر</string>
+    <string name="extended_fab_content_desc">المناطق الخطرة</string>
+    <string name="back">العودة</string>
+
+    <string name="descwebsite">Severe cases of COVID-19 can cause lasting damage to the lungs that may necessitate surgery or even organ transplants.</string>
+    <string name="titlewebsite">Lifelong Lung Damage: A Serious COVID-19 Complication</string>
+    <string name="namewebsite">Healthline</string>
+
+</resources>

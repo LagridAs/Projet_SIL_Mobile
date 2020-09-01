@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".socialMedia.SocialMediaSectionsFragment">
+
+    <com.google.android.material.tabs.TabLayout
+            android:id="@+id/sections"
+            android:clickable="true"
+            app:tabIndicatorColor="@color/gold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:text="مواقع أخرى"/>
+        <com.google.android.material.tabs.TabItem
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:text="فيسبوك"/>
+        <com.google.android.material.tabs.TabItem
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:text="يوتيوب"/>
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+</FrameLayout>
